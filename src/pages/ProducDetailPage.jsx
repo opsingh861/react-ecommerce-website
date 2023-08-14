@@ -1,8 +1,11 @@
 import React from 'react'
-import ProducDetails from '../features/product-list/components/ProductDetails'
+import ProducDetails from '../features/product/components/ProductDetails'
+import Navbar from '../features/navbar/Navbar'
 const ProducDetailPage = () => {
     return (
-        <ProducDetails />
+        <Navbar>
+            <ProducDetails />
+        </Navbar>
     )
 }
 
