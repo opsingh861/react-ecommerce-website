@@ -156,7 +156,7 @@ const Navbar = ({ children }) => {
                                             <div className="text-base font-medium leading-none text-white">{user.name}</div>
                                             <div className="text-sm font-medium leading-none text-gray-400">{user.email}</div>
                                         </div>
-                                        <link to="/cart">
+                                        <Link to="/cart">
                                         <button
                                             type="button"
                                             className="relative ml-auto flex-shrink-0 rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
@@ -165,7 +165,7 @@ const Navbar = ({ children }) => {
                                             <span className="sr-only">View notifications</span>
                                             <ShoppingCartIcon className="h-6 w-6" aria-hidden="true" />
                                         </button>
-                                        </link>
+                                        </Link>
                                         <span className="inline-flex items-center rounded-md z-50 bg-red-50 mb-7 -ml-3 px-2 py-1 text-xs font-medium text-red-700 ring-1 ring-inset ring-red-600/10">
                                             3
                                         </span>
